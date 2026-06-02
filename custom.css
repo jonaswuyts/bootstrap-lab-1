@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background:no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.kleur-bedekking {
+    min-height: 60vh;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.singlecol {
+    max-width: 750px;
+}
+
+@media (max-width:768px){
+    .kleur-bedekking{
+        min-height: 30vh;
+    }
+}
+
+footer {
+ background-color: rgb(8, 15, 49);
+ color: white;
+}
+
+.logo {
+    width: 25px;
+}
+
+footer a {
+    color:white
+}
+
+footer a:hover {
+    color: rgb(152, 152, 152);
+}
